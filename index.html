@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrapper">
+
+        <!-- Header -->
+
+        <div id="header">
+            <h1 class="dojoWeather">DojoWeather</h1>
+            <ul class="ul-cities">
+                <li onclick="alertCity(this)" class="city">Burbank</li>
+                <li onclick="alertCity(this)" class="city">Chicago</li>
+                <li onclick="alertCity(this)" class="city">Dallas</li>
+            </ul>
+        </div>
+
+        <!-- Second Header -->
+
+        <div id="header-2">
+            <h2 class="SanJose">San Jose</h2>
+            <p class="show-temp">show temperature in</p>
+            <select class="thermometer">
+                <option class="celsius">°C</option>
+                <option class="fahrenheit">°F</option>
+            </select>
+        </div>
+
+        <!-- Days of the week -->
+
+        <div id="main">
+            <div class="col">
+                <h3 class="day">Today</h3>
+                <img class="weather-icon" src="assets/some_rain.png">
+                <p class="weather-description">some rain</p>
+                <div class="high-low-box">
+                    <h4 class="high">24°</h4>
+                    <h4 class="low">18°</h4>
+                </div>
+            </div>
+            <div class="col">
+                <h3 class="day">Tomorrow</h3>
+                <img class="weather-icon" src="assets/some_sun.png">
+                <p class="weather-description">some sun</p>
+                <div class="high-low-box">
+                    <h4 class="high">27°</h4>
+                    <h4 class="low">19°</h4>
+                </div>
+            </div>
+            <div class="col">
+                <h3 class="day">Friday</h3>
+                <img class="weather-icon" src="assets/some_clouds.png">
+                <p class="weather-description">some clouds</p>
+                <div class="high-low-box">
+                    <h4 class="high">21°</h4>
+                    <h4 class="low">16°</h4>
+                </div>
+            </div>
+            <div class="col">
+                <h3 class="day">Saturday</h3>
+                <img class="weather-icon" src="assets/some_sun.png">
+                <p class="weather-description">some sun</p>
+                <div class="high-low-box">
+                    <h4 class="high">26°</h4>
+                    <h4 class="low">21°</h4>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+
+        <div id="footer">
+            <img class="cookie" src="assets/cookie.png">
+            <div class="cookie-text">
+                <h4 class="cookie-time">Stop! Cookie time</h4>
+                <p class="cookie-time-description">We use cookies (sadly not the edible ones) to personalize content and ads, to provide social media features and to analyse our traffic. <a href="#">Read more...</a></p>
+            </div>
+            <button onclick="acceptButton()" class="accept">I Accept</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

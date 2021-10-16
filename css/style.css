@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper {
+    margin: 0 auto;
+    width: 620px;
+    font-family: cursive;
+}
+
+/* Header */
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: lightskyblue;
+    color: white;
+    padding: 10px 0px;
+}
+
+.dojoWeather {
+    padding: 0px 20px;
+}
+
+.ul-cities {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+.city {
+    margin: 0px 10px;
+}
+
+/* Header 2 */
+
+#header-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: solid 3px black;
+    padding: 10px 20px;
+}
+
+.show-temp {
+    padding-left: 230px;
+}
+
+.thermometer {
+    padding: 5px;
+}
+
+/* Days of the week */
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.col {
+    flex: 4;
+    text-align: center;
+    background-color: lightgrey;
+    height: 230px;
+    margin: 10px;
+}
+
+.day {
+    padding: 10px;
+    text-align: center;
+}
+
+.weather-icon {
+    border-radius: 50%;
+    text-align: center;
+    width: 100px;
+}
+
+.weather-description {
+    text-align: center;
+}
+
+.high-low-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 20px;
+}
+
+.high {
+    color: red;
+}
+
+.low {
+    color: dodgerblue;
+}
+
+/* Footer */
+
+#footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    background: lightgrey;
+    border: solid 3px black;
+    margin: 0px 10px;
+    padding: 10px 0px;
+    width: 595px;
+    bottom: 0;
+}
+
+.cookie {
+    margin: 15px;
+    width: 50px;
+}
+
+.cookie-time-description {
+    font-size: 14px;
+    padding-right: 5px;
+}
+
+.accept {
+    display: inline-block;
+    background-color: lightskyblue;
+    border: solid 3px black;
+    box-shadow: 3px 3px;
+    margin: 20px;
+    width: 170px;
+    padding: 3px;
+    font-weight: bold;
+    font-family: cursive;
+}
